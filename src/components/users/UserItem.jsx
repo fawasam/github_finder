@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const UserItem = ({user:{login,avatar_url}}) => {
   return (
     <div className='card shadow-md compact side bg-base-100'>
-    <Link className='' to={`/users/${login}`}>
+    <Link className='' to={`/user/${login}`}>
         <div className="flex-row item-center space-x-4 card-body items-center hover:bg-violet-600">
             <div>
                 <div className="avater">
